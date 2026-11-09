@@ -1,0 +1,26 @@
+name: Sample request
+description: Suggest a new SDK sample or an improvement
+title: "[Sample]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Use case
+      description: Describe the problem the sample should help users solve.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Product and language scope
+      description: List the affected products and programming languages.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Observable result
+      description: Explain how a user can verify that the sample worked.
+    validations:
+      required: true

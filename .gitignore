@@ -1,0 +1,23 @@
+# SDK files copied into project directories
+/*-cpp/lib/
+/*-cpp/samples/HR_Pro.h
+/*-csharp/lib/
+/*-python/samples/CPS.py
+
+# Build outputs
+/*-cpp/build/
+/*-csharp/bin/
+/*-csharp/obj/
+**/bin/
+**/obj/
+**/__pycache__/
+*.py[cod]
+*.log
+**/.sdk-config-*/
+**/*.sdk-old
+
+# Local settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

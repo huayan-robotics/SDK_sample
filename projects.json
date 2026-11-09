@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "e-series-cpp": {"model": "eserial", "language": "cpp"},
+    "e-series-csharp": {"model": "eserial", "language": "csharp"},
+    "e-series-python": {"model": "eserial", "language": "python"},
+    "s-series-cpp": {"model": "sserial", "language": "cpp"},
+    "s-series-csharp": {"model": "sserial", "language": "csharp"},
+    "s-series-python": {"model": "sserial", "language": "python"},
+    "echo5-cpp": {"model": "echo5", "language": "cpp"},
+    "echo5-csharp": {"model": "echo5", "language": "csharp"},
+    "echo5-python": {"model": "echo5", "language": "python"},
+    "hy7-cpp": {"model": "hy7", "language": "cpp"},
+    "hy7-csharp": {"model": "hy7", "language": "csharp"},
+    "hy7-python": {"model": "hy7", "language": "python"}
+  }
+}

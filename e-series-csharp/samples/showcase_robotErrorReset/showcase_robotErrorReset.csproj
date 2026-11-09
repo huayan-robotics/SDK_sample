@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>showcase_robotErrorReset</AssemblyName>
+    <RootNamespace>showcase_robotErrorReset</RootNamespace>
+    <!-- 所有案例共用解决方案根目录下的输出目录，SDK DLL 只保留一份。 -->
+    <OutputPath>..\..\bin\showcase_robotErrorReset\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>..\..\obj\showcase_robotErrorReset\$(Configuration)\</IntermediateOutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RobotLibrarys">
+      <HintPath>..\..\lib\RobotLibrarys.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\lib\Newtonsoft.Json.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

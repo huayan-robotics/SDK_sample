@@ -1,0 +1,58 @@
+name: Bug report
+description: Report a reproducible SDK sample problem
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options: [E Series, S Series, ECHO5, HY7]
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options: [C++, "C#", Python]
+    validations:
+      required: true
+  - type: input
+    id: sdk-version
+    attributes:
+      label: SDK version
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, architecture, compiler or runtime version.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Actual result
+      description: Include return codes and a minimal relevant log.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety and privacy
+      options:
+        - label: I removed credentials, customer data, and private network information.
+          required: true
